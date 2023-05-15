@@ -5,11 +5,12 @@ import './components/Navigation.css';
 import './components/Players.css';
 import Footer from './components/Footer';
 import './components/Footer.css';
+import Main from './components/Main';
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Players/>
+      <Main/>
       <Footer/>
 
     </div>
